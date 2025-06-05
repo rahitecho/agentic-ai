@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug PDF Assistant",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/pdf_assistant.py",
+      "console": "integratedTerminal",
+      "args": [],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Debug PDF Assistant (New Session)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/pdf_assistant.py",
+      "console": "integratedTerminal",
+      "args": ["--new"],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Debug Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

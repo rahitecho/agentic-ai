@@ -1,0 +1,12 @@
+phidata 
+openai 
+duckduckgo-search
+yfinance
+fastapi
+uvicorn
+sqlalchemy
+pgvector
+psycopg[binary]
+pypdf
+typer
+psycopg2
